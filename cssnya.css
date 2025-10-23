@@ -1,0 +1,190 @@
+/* 🌸 Font global untuk seluruh halaman */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* 🌸 Header & Navigasi */
+header {
+  transition: all 0.3s ease;
+}
+
+/* --- Brand Glowly Skincare di header --- */
+nav h1 {
+  font-size: 2.3rem;         
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #ec4899;
+}
+
+/* --- Menu navigasi (Home, Produk, Kontak) --- */
+nav ul li a {
+  font-size: 1.15rem;         
+  font-weight: 500;
+  color: #4b5563;             
+  letter-spacing: 0.5px;      
+  transition: all 0.3s ease;
+  padding: 0.25rem 0.75rem;   
+}
+
+nav ul li a:hover {
+  color: #ec4899;             
+  transform: scale(1.05);     
+}
+
+/* 🌸 Card Produk */
+.card {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+/* Gambar produk */
+.card img {
+  width: 100%;
+  max-width: 230px;    
+  height: 230px;       
+  object-fit: cover;   
+  margin: 0 auto;      
+  display: block;
+  border-radius: 1rem; 
+}
+
+/* Teks dalam card */
+.card h3 {
+  font-size: 1.2rem;
+  color: #1f2937;
+}
+
+.card p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.card .text-pink-500 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+/* 🌸 Tombol umum & tombol "Tambah ke Keranjang" */
+.btn {
+  display: inline-block;
+  background-color: #ec4899;   
+  color: white;
+  padding: 0.75rem 1.5rem;     
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  width: 100%;                 
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #db2777;   /* pink-600 */
+  transform: scale(1.03);
+  box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+}
+
+/* 🌸 Notifikasi (misalnya "produk ditambahkan") */
+#notif {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* 🌸 Footer Style */
+footer {
+  font-size: 1rem;             
+  color: #4b5563;              
+  background-color: #fce7f3;   
+  padding: 1rem 0;
+  text-align: center;
+  letter-spacing: 0.3px;
+}
+
+
+/* 🌸 Form Kontak - perbesar teks dan rapikan tampilan */
+form input,
+form textarea {
+  font-size: 1rem;           
+  padding: 0.75rem;          
+  border-radius: 0.5rem;     
+  border: 1px solid #e5e7eb; 
+  width: 100%;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #ec4899;     
+  box-shadow: 0 0 0 3px rgba(236,72,153,0.2);
+}
+
+/* Label form agar terlihat jelas */
+form label {
+  font-size: 1.05rem;        
+  font-weight: 500;
+  color: #374151;            
+}
+
+/* 🌸 Tombol Kirim di Halaman Kontak */
+form button,
+form input[type="submit"] {
+  display: inline-block;
+  background-color: #ec4899;   
+  color: white;
+  padding: 0.75rem 1.5rem;     /* tombol besar dan nyaman diklik */
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  width: 100%;                 /* selebar form */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  border: none;
+  transition: all 0.3s ease;
+}
+
+form button:hover,
+form input[type="submit"]:hover {
+  background-color: #db2777;   /* pink-600 */
+  transform: scale(1.03);      /* efek zoom halus */
+  box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+}
+
+/* 🌸 Bagian Kontak - Media Sosial */
+.contact-info {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #4b5563;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.contact-info strong {
+  font-weight: 600;
+  color: #ec4899; /* pink lembut */
+}
+
+/* 🌸 Footer biar selalu penuh lebar dan seragam */
+footer {
+  width: 100%;
+  border-top: 1px solid #f9a8d4; 
+  background-color: #fce7f3;
+  color: #4b5563;
+  font-size: 1.05rem;
+  text-align: center;
+  padding: 1rem 0;
+  letter-spacing: 0.3px;
+}
+
+/* 🌸 Pastikan semua teks pakai font sama */
+* {
+  font-family: 'Poppins', sans-serif;
+}

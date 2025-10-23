@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak - Glowy Skincare</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="cssnya.css">
+</head>
+<body class="bg-pink-50 text-gray-800 font-poppins">
+
+  <!-- HEADER -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <nav class="container mx-auto flex items-center justify-between p-4">
+      <h1 class="text-4xl font-bold text-pink-500">Glowy Skincare</h1>
+      <button id="menu-btn" class="md:hidden text-pink-500 focus:outline-none text-3xl">☰</button>
+      <ul id="menu" class="hidden md:flex space-x-8">
+        <li><a href="index.html" class="hover:text-pink-500 text-lg">Home</a></li>
+        <li><a href="produk.html" class="hover:text-pink-500 text-lg">Produk</a></li>
+        <li><a href="contact.html" class="hover:text-pink-500 text-lg font-semibold text-pink-600">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- FORM KONTAK -->
+  <main class="container mx-auto py-16">
+    <h2 class="text-4xl font-semibold text-center mb-10">Hubungi Kami 💬</h2>
+
+    <form id="contactForm" class="max-w-lg mx-auto bg-white p-8 rounded-2xl shadow-lg">
+      <label class="block mb-4">
+        <span class="font-medium text-lg text-gray-700">Nama:</span>
+        <input type="text" id="nama" class="w-full border border-gray-300 p-3 rounded-lg text-lg" placeholder="Nama lengkap kamu">
+      </label>
+
+      <label class="block mb-4">
+        <span class="font-medium text-lg text-gray-700">Email:</span>
+        <input type="email" id="email" class="w-full border border-gray-300 p-3 rounded-lg text-lg" placeholder="Alamat email aktif">
+      </label>
+
+      <label class="block mb-6">
+        <span class="font-medium text-lg text-gray-700">Pesan:</span>
+        <textarea id="pesan" rows="4" class="w-full border border-gray-300 p-3 rounded-lg text-lg" placeholder="Tulis pesanmu di sini..."></textarea>
+      </label>
+
+      <button type="submit" class="btn w-full text-lg py-3">Kirim Pesan</button>
+    </form>
+
+    <div class="contact-info mt-12 text-center text-lg leading-relaxed max-w-2xl mx-auto mb-8">
+      <strong class="text-pink-500 text-xl block mb-2">Atau hubungi kami lewat media sosial:</strong>
+      <p>Instagram: <a href="https://instagram.com/nazilanh" target="_blank" class="text-pink-500 hover:underline">@nazilanh</a></p>
+      <p>WhatsApp: <a href="https://wa.me/6285831382511" target="_blank" class="text-pink-500 hover:underline">0858-3138-2511</a></p>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-pink-100 text-center py-6 mt-16 text-gray-700 text-base border-t border-pink-200">
+    <p>© 2025 Glowy Skincare. All rights reserved.</p>
+  </footer>
+
+  <script src="jsnya.js"></script>
+</body>
+</html>

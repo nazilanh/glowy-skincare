@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Glowy Skincare</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="cssnya.css" />
+</head>
+<body class="bg-pink-50 text-gray-800 font-poppins">
+
+  <!-- HEADER -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <nav class="container mx-auto flex items-center justify-between p-4">
+      <h1 class="text-4xl font-bold text-pink-500">Glowy Skincare</h1> (logo / judul website)
+      <button id="menu-btn" class="md:hidden text-pink-500 focus:outline-none text-3xl">☰</button>
+      <ul id="menu" class="hidden md:flex space-x-8">
+        <li><a href="index.html" class="hover:text-pink-500 text-lg font-semibold text-pink-600">Home</a></li>
+        <li><a href="produk.html" class="hover:text-pink-500 text-lg">Produk</a></li>
+        <li><a href="contact.html" class="hover:text-pink-500 text-lg">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="text-center py-20 bg-pink-100">
+    <h2 class="text-5xl font-extrabold mb-6 text-pink-600">Perawatan Kulit Alami untuk Kamu 🌸</h2>
+    <p class="text-2xl text-gray-700 mb-8">Produk skincare alami untuk kulit sehat dan bersinar setiap hari.</p> (memanggil deskripsi singkat ttg produk)
+    <a href="produk.html" class="bg-pink-500 text-white text-2xl px-10 py-5 rounded-xl hover:bg-pink-600 shadow-lg transition">Lihat Produk</a>
+  </section>
+
+  <!-- PRODUK UNGGULAN -->
+  <section class="container mx-auto py-12">
+    <h3 class="text-3xl font-semibold text-center mb-8">Produk Unggulan</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+      <!-- Produk 1 -->
+      <div class="card bg-white rounded-2xl shadow-lg overflow-hidden text-center">
+        <img src="avoskin alpha arbutin.png" alt="Avoskin - YSB Serum Alpha Arbutin 3% + Grapeseed" class="w-full h-64 object-cover">
+        <div class="p-6">
+          <h4 class="font-semibold text-lg mb-1">Avoskin - YSB Serum Alpha Arbutin 3% + Grapeseed</h4>
+          <p class="text-gray-600 mb-2">Serum untuk mencerahkan wajah.</p>
+          <p class="text-pink-500 font-bold">Rp 125.000</p>
+          <button class="btn mt-4">Tambah ke Keranjang</button>
+        </div>
+      </div>
+
+      <!-- Produk 2 -->
+      <div class="card bg-white rounded-2xl shadow-lg overflow-hidden text-center">
+        <img src="pure paw paw.png" alt="Pure PawPaw" class="w-full h-64 object-cover">
+        <div class="p-6">
+          <h4 class="font-semibold text-lg mb-1">Pure PawPaw</h4>
+          <p class="text-gray-600 mb-2">Krim pelembap ringan untuk kulit halus.</p>
+          <p class="text-pink-500 font-bold">Rp 70.000</p>
+          <button class="btn mt-4">Tambah ke Keranjang</button>
+        </div>
+      </div>
+
+      <!-- Produk 3 -->
+      <div class="card bg-white rounded-2xl shadow-lg overflow-hidden text-center">
+        <img src="skintf pink.jpg" alt="Skintific - Brightening Moisture Gel" class="w-full h-64 object-cover">
+        <div class="p-6">
+          <h4 class="font-semibold text-lg mb-1">Skintific - Brightening Moisture Gel</h4>
+          <p class="text-gray-600 mb-2">Krim pelembap untuk mencerahkan kulit.</p>
+          <p class="text-pink-500 font-bold">Rp 120.000</p>
+          <button class="btn mt-4">Tambah ke Keranjang</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-pink-100 text-center py-6 mt-12 text-gray-700 text-base border-t border-pink-200">
+    <p>© 2025 Glowy Skincare. All rights reserved.</p>
+  </footer>
+
+  <script src="jsnya.js"></script>
+</body>
+</html>

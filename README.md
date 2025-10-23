@@ -11,8 +11,10 @@ Link Youtube : https://youtu.be/7c2VNm0CpUIhttps://youtu.be/7c2VNm0CpUI
 Tampilan Web Home
 ![alt.text](https://github.com/nazilanh/glowy-skincare/blob/main/Glowy%20Skincare/glowy%201.png)
 
+
 Tampilan Web Produk 
 ![alt.text](https://github.com/nazilanh/glowy-skincare/blob/main/Glowy%20Skincare/glowy%202.png)
 
-Tampilan Web Kontak'
+
+Tampilan Web Kontak
 ![alt.text](https://github.com/nazilanh/glowy-skincare/blob/main/Glowy%20Skincare/glowy%203.png)

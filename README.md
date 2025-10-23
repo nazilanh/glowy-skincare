@@ -6,5 +6,11 @@ Website ini memiliki beberapa fitur utama:
 •	Halaman Kontak: Formulir untuk menghubungi pemilik website, dilengkapi informasi media sosial dan WhatsApp.
 •	Navigasi responsif: Menu yang menyesuaikan tampilan pada desktop dan mobile.
 
-Tampilan Web
+Tampilan Web Home
 ![alt.text](https://github.com/nazilanh/glowy-skincare/blob/main/Glowy%20Skincare/glowy%201.png)
+
+Tampilan Web Produk 
+![alt.text](https://github.com/nazilanh/glowy-skincare/blob/main/Glowy%20Skincare/glowy%202.png)
+
+Tampilan Web Kontak'
+![alt.text](https://github.com/nazilanh/glowy-skincare/blob/main/Glowy%20Skincare/glowy%203.png)
